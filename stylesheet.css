@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "BodoniBook";
+    src: url('Bodoni\ BE\ Light\ Regular.otf');
+}
+
+.content {
+    padding-left:25%;
+    padding-right:25%;
+    display: flex;
+}
+
+.picture{
+    width: 50%
+}
+
+.text {
+    width: 50%;
+    font-family: "BodoniBook";
+    color: white;
+}
+
+.paddingv{
+    width: 2vw;
+}
+
+.paddingh {
+    height: 2vh;
+}
+
+#teaserpicture {
+    text-align: center;
+    padding-left:25%;
+    padding-right:25%;
+}
+
+.heading {
+    font-family: "BodoniBook";
+    font-size: 6vw;
+}
+
+#hero {
+    color: #999999;
+    font-family: "BodoniBook";
+    text-align: center;
+    font-size: 5vw;
+    padding-left:25%;
+    padding-right:25%;
+    hyphens: auto;
+}
+
+#subhero {
+    color: white;
+    font-family: "BodoniBook";
+    text-align: center;
+    font-size: 2.5vw;
+    padding-left:25%;
+    padding-right:25%;
+    hyphens: auto;
+}
+
+#container {
+    background-color: black;
+}
+
+.button, button:not(:hover), button:not(:active) {
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: "BodoniBook";
+    border: none;
+    padding: 0.5rem;
+}
+
+.button:hover {
+    background: #BCA569;
+    outline: none;
+}
+
+.button:active{
+    background: #968454;
+}
+
+#buttondiv {
+    text-align: center;
+    padding-bottom: 2.5vh;
+}
