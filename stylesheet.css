@@ -10,13 +10,14 @@
 }
 
 .picture{
-    width: 50%
+    width: 50%;
 }
 
 .text {
     width: 50%;
     font-family: "BodoniBook";
     color: white;
+    font-size: 1.25vw;
 }
 
 .paddingv{
@@ -35,7 +36,7 @@
 
 .heading {
     font-family: "BodoniBook";
-    font-size: 6vw;
+    font-size: 2.5vw;
 }
 
 #hero {
@@ -83,3 +84,20 @@
     text-align: center;
     padding-bottom: 2.5vh;
 }
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+.appStoreButton {
+    width: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    }
