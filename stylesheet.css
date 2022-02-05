@@ -4,48 +4,50 @@
 }
 
 .content {
-    padding-left:25%;
-    padding-right:25%;
+    margin-left:20vw;
+    margin-right:20vw;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .picture{
-    width: 50%;
+    width: 300px;
+    display: inline-block;
 }
 
 .text {
-    width: 50%;
+    width: 100%;
     font-family: "BodoniBook";
     color: white;
-    font-size: 1.25vw;
+    font-size: 1em;
+    display: inline;
+    min-width: 200px;
 }
 
 .paddingv{
-    width: 2vw;
+    width: 10vw;
 }
 
 .paddingh {
-    height: 2vh;
+    height: 20vh;
 }
 
 #teaserpicture {
     text-align: center;
-    padding-left:25%;
-    padding-right:25%;
 }
 
 .heading {
     font-family: "BodoniBook";
-    font-size: 2.5vw;
+    font-size: 2em;
 }
 
 #hero {
     color: #999999;
     font-family: "BodoniBook";
     text-align: center;
-    font-size: 5vw;
-    padding-left:25%;
-    padding-right:25%;
+    font-size: 3em;
+    margin-left:20vw;
+    margin-right:20vw;
     hyphens: auto;
 }
 
@@ -53,19 +55,20 @@
     color: white;
     font-family: "BodoniBook";
     text-align: center;
-    font-size: 2.5vw;
-    padding-left:25%;
-    padding-right:25%;
+    font-size: 2em;
+    padding-left:20vw;
+    padding-right:20vw;
     hyphens: auto;
 }
 
 #container {
     background-color: black;
+    box-sizing: border-box;
 }
 
 .button, button:not(:hover), button:not(:active) {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.5em;
     font-family: "BodoniBook";
     border: none;
     padding: 0.5rem;
@@ -86,8 +89,8 @@
 }
 
 hr {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20vw;
+    margin-right: 20vw;
     height: 1px;
     background-color: white;
     border: none;
