@@ -29,7 +29,7 @@
 }
 
 .paddingh {
-    height: 20vh;
+    height: 20vw;
 }
 
 #teaserpicture {
@@ -97,7 +97,7 @@ hr {
 }
 
 .appStoreButton {
-    width: 50%;
+    height: 60px;
 }
 
 a {
