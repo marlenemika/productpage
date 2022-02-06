@@ -40,12 +40,13 @@
 }
 
 #hero {
-    color: #999999;
+    color: #BCA569;
     font-family: "BodoniBook";
     text-align: center;
     font-size: 5vw;
     padding-left:25%;
     padding-right:25%;
+    padding-bottom: 80px;
     hyphens: auto;
 }
 
@@ -60,18 +61,23 @@
 }
 
 #container {
-    background-color: black;
+    background-color: #234744;
 }
 
 .button, button:not(:hover), button:not(:active) {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     font-family: "BodoniBook";
-    border: none;
-    padding: 0.5rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    background-color: #234744;
 }
 
 .button:hover {
+    border-color: #BCA569;
     background: #BCA569;
     outline: none;
 }
@@ -82,7 +88,7 @@
 
 #buttondiv {
     text-align: center;
-    padding-bottom: 2.5vh;
+    padding-bottom: 8vh;
 }
 
 hr {
@@ -100,4 +106,4 @@ hr {
 a {
     color: white;
     text-decoration: none;
-    }
+}

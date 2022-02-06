@@ -4,23 +4,30 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheet.css">
-        <link rel="script" href="script.js">
+        <script src="script.js"></script>
         <meta charset="utf-8">
         <title>App Name</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body id="container">
         <div id="hero">
-            <p style="margin-bottom: 0;">Das ist die große Überschrift</p>
+            <img src="rsvplogo.png" style="width: 20%;">
+            <p style="margin-bottom: 0; margin-top: 0;">RSVP</p>
+            <p style="color: white; font-size: 18px; margin-bottom: 0; margin-top: 0;">– Wedding App –</p>
         </div>
+        <!--
         <div id="subhero">
-            <p>Das ist die Unterüberschrift</p>
+            <p>Die individuelle App zu eurer Hochzeit</p>
         </div>
+        -->
         <div id="buttondiv">
-            <button type="button" class="button">EARLY ACCESS</button>
+            <a href="#download" type="button" class="button">TRY OUT NOW</a>
         </div>
+        <!--
         <div id="teaserpicture">
             <img src="blog-ph.jpg" style="width: 100%;">
         </div>
+        -->
         <div class="paddingh"></div>
         <div class="content">
             <div class="picture">
@@ -28,15 +35,15 @@
             </div>
             <div class="paddingv"></div>
             <div class="text">
-                <p class="heading">Überschrift</h1>
-                <p>Hier kommt die Beschreibung zu dem Screenshot.</p>
+                <p class="heading">Wedding ABC</h1>
+                <p>No need to squeeze it in a paper invitation: There's unlimited space to tell your guests everything about your wedding in an App.</p>
             </div>
         </div>
         <div class="paddingh"></div>
         <div class="content">
             <div class="text">
-                <p class="heading">Überschrift</h1>
-                <p>Hier kommt die Beschreibung zu dem Screenshot.</p>
+                <p class="heading">Highly customizable</h1>
+                <p>Custom colors, fonts, images, logos – basically anything can be customized!</p>
             </div>
             <div class="paddingv"></div>
             <div class="picture">
@@ -44,6 +51,30 @@
             </div>
         </div>
         <div class="paddingh"></div>
+        <div class="content">
+            <div class="picture">
+                <img src="blog-ph.jpg" style="width: 100%;">
+            </div>
+            <div class="paddingv"></div>
+            <div class="text">
+                <p class="heading">QR Codes</h1>
+                <p>Unique QR Codes redirect your guests to the AppStore / PlayStore and are used to login within the App. </p>
+            </div>
+        </div>
+        <div class="paddingh"></div>
+        <div class="content">
+            <div class="text">
+                <p class="heading">RSVP</h1>
+                <p>And finally – of course – let your guests send configurable in-app RSVPs.</p>
+            </div>
+            <div class="paddingv"></div>
+            <div class="picture">
+                <img src="blog-ph.jpg" style="width: 100%;">
+            </div>
+        </div>
+        <div class="paddingh"></div>
+        <a id="download"></a>
+        <div class="paddingh" style="padding-bottom: 40px;"></div>
         <div class="content">
             <div class="appStoreButton">
             <a href="https://www.apple.com">
@@ -57,8 +88,15 @@
             </a>
             </div>
         </div>
-        <div>
+        <div class="paddingh" style="padding-bottom: 40px;"></div>
+        <div class="paddingh" style="padding-bottom: 40px;">
             <hr/>
+        </div>
+        <div id="hero">
+            <button style="font-size:24px" class="button" onclick="onContactButtonClicked()"><i class="fa fa-envelope"></i>&nbsp;Contact us</button>
+            <div class="paddingh" style="padding-bottom: 5px;"></div>
+            <p class="content" style="color: white; margin-bottom: 0; margin-top: 0; text-align: center; font-size: 18px;">Contact us now for more information and to request your custom offer.</p>
+
         </div>
         <footer>
             <div>
