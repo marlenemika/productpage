@@ -92,8 +92,10 @@ body {
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    text-decoration-color: #BCA569;
+}
+a, a > p {
+    color: #BCA569;
 }
 
 .header {
@@ -150,6 +152,17 @@ h3  {
     align-content: center;
     flex-direction: column;
 }
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #234744; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .cf7_custom_style_1 {

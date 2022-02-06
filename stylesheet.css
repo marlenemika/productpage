@@ -74,6 +74,7 @@
     border-radius: 8px;
     color: white;
     background-color: #234744;
+    text-decoration: none !important;
 }
 
 .button:hover {
@@ -104,8 +105,10 @@ hr {
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    text-decoration-color: #BCA569;
+}
+a, a > p {
+    color: #BCA569;
 }
 
 .card {
